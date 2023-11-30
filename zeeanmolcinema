@@ -1,0 +1,21 @@
+#EXTM3U
+#EXT-X-VERSION:1
+## Created with Broadpeak BkS350 Origin Packager (version=1.11.16-26430)
+#EXT-X-SESSION-KEY:METHOD=AES-128,URI="Zeeanmolcinema.isml/aes128.key"
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=532000,AVERAGE-BANDWIDTH=483000,CODECS="mp4a.40.2,avc1.77.30",RESOLUTION=256x144,FRAME-RATE=25,VIDEO-RANGE=SDR
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=247600.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=899000,AVERAGE-BANDWIDTH=817000,CODECS="mp4a.40.2,avc1.77.30",RESOLUTION=426x240,FRAME-RATE=25,VIDEO-RANGE=SDR
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=562400.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1511000,AVERAGE-BANDWIDTH=1374000,CODECS="mp4a.40.2,avc1.77.30",RESOLUTION=640x360,FRAME-RATE=25,VIDEO-RANGE=SDR
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=1087600.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=2735000,AVERAGE-BANDWIDTH=2487000,CODECS="mp4a.40.2,avc1.77.30",RESOLUTION=854x480,FRAME-RATE=25,VIDEO-RANGE=SDR
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000-video=2137600.m3u8
+
+# variants
+#EXT-X-STREAM-INF:BANDWIDTH=243000,AVERAGE-BANDWIDTH=221000,CODECS="mp4a.40.2"
+https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/zeeanmolcinema-audio_208482_und=208000.m3u8
+
+
+##https://d75dqofg5kmfk.cloudfront.net/bpk-tv/Zeeanmolcinema/default/playlist.m3u8
