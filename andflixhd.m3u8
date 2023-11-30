@@ -1,7 +1,12 @@
 #EXTM3U
-#EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000
+#EXTINF:0,a00x
+#EXTVLCOPT:network-caching=1000
 http://103.132.181.118:82/play/a00x
+#EXTINF:0,andflixhd2
+#EXTVLCOPT:network-caching=1000
 https://sanjibweb.me/paid/smtv2/index.m3u8?id=936
+#EXTINF:0,andflixhd3
+#EXTVLCOPT:network-caching=1000
 https://bdtubelive.xyz/my.m3u8?id=11624
-http://103.132.181.118:82/play/a00x
+
+
