@@ -1,7 +1,7 @@
 #EXTM3U
 #EXTINF:0,a00x
 #EXTVLCOPT:network-caching=1000
-##http://103.132.181.118:82/play/a00x.m3u8
+##http://103.132.181.118:82/play/a000x
 ##https://sanjibweb.me/paid/smtv2/index.m3u8?id=936
 ##https://bdtubelive.xyz/my.m3u8?id=11624
 
