@@ -1,0 +1,14 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=464000,RESOLUTION=384x216
+https://yuppirecloriginvt.akamaized.net/28072023/smil:bbo.smil/chunklist_b464000.m3u8?hdntl=exp=1701498657~acl=!*/28072023/smil:bbo.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=hdntl~hmac=f68944519d9d6bb385beaee95fa5225f633c1062474ea0f78efc254b392df8f4
+#EXT-X-STREAM-INF:BANDWIDTH=896000,RESOLUTION=640x360
+https://yuppirecloriginvt.akamaized.net/28072023/smil:bbo.smil/chunklist_b896000.m3u8?hdntl=exp=1701498657~acl=!*/28072023/smil:bbo.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=hdntl~hmac=f68944519d9d6bb385beaee95fa5225f633c1062474ea0f78efc254b392df8f4
+#EXT-X-STREAM-INF:BANDWIDTH=1628000,RESOLUTION=1024x576
+https://yuppirecloriginvt.akamaized.net/28072023/smil:bbo.smil/chunklist_b1628000.m3u8?hdntl=exp=1701498657~acl=!*/28072023/smil:bbo.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=hdntl~hmac=f68944519d9d6bb385beaee95fa5225f633c1062474ea0f78efc254b392df8f4
+#EXT-X-STREAM-INF:BANDWIDTH=2628000,RESOLUTION=1280x720
+https://yuppirecloriginvt.akamaized.net/28072023/smil:bbo.smil/chunklist_b2628000.m3u8?hdntl=exp=1701498657~acl=!*/28072023/smil:bbo.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=hdntl~hmac=f68944519d9d6bb385beaee95fa5225f633c1062474ea0f78efc254b392df8f4
+
+
+
+##https://yuppirecloriginvt.akamaized.net/28072023/smil:bbo.smil/chunklist_b2628000.m3u8?hdntl=exp=1701498364~acl=!*/28072023/smil:bbo.smil/*!yuppTVCom_5_23093072_211ad4735dd6495d_US_45.61.146.183~data=hdntl~hmac=b5d73e459c413c87368652eca83920df7d20200e7d8d75de3e99920626e45660
