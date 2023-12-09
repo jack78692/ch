@@ -1,5 +1,5 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000
-http://line.gofast-tv.me/play/live.php?mac=00:1a:79:b5:63:3c&stream=156000&extension=ts
+http://line.gofast-tv.me/play/live.php?mac=00:1a:79:b5:63:3c&stream=&extension=ts
 http://185.243.7.154/play/live.php?mac=00:1a:79:32:c8:18&stream=1112132&extension=ts
