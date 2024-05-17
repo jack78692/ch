@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=3000000
+http://45.158.254.15:80/play/live.php?mac=00:1a:79:1d:13:13&stream=156167&extension=ts
