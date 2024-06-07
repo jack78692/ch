@@ -1,0 +1,54 @@
+#EXTM3U url-tvg="https://3o77.short.gy/epg.xml.gz"
+
+#EXTINF:-1 tvg-id="0-9-zeecinemahd" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinemahd/channel_web/1170x658withlogo167952257",Zee Cinema HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinemahd1/default/zeecinemahd1-audio_208482_und=208000-video=4237600-429438281.m3u8
+
+#EXTINF:-1 tvg-id="0-9-tvpictureshd" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-tvpictureshd/channel_web/1170x658withlog1476130363",&Pictures HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictureshd1/default/andpictureshd1-audio_208482_und=208000-video=4237600-429438172.m3u8
+
+
+#EXTINF:-1 tvg-id="0-9-zeeanmolcinema" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeeanmolcinema/channel_web/1170x658withlog_1721007595",Zee Anmol Cinema
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmolcinema1/default/zeeanmolcinema1-audio_208482_und=208000-video=2137600-429438407.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeclassic" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeeclassic/channel_web/1170x658e6b59efbc9c5471f9392f477f91f0c11",Zee Bollywood
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeebollywood1/default/zeebollywood1-audio_208482_und=208000-video=2137600-429438377.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecinema" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecinema/channel_web/1170x658withlogo_807278654",Zee Cinema
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeecinema1/default/zeecinema1-audio_208482_und=208000-video=2137600-429438317.m3u8
+
+#EXTINF:-1 tvg-id="0-9-pictures" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-pictures/channel_web/1170x658withlog_1269578414",&Pictures
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andpictures1/default/andpictures1-audio_208482_und=208000-video=2137600-429438857.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeeaction" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeeaction/channel_web/1170x658withlog_1953200347",Zee Action
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeaction1/default/zeeaction1-audio_208482_und=208000-video=2137600-429438325.m3u8
+
+#EXTINF:-1 tvg-id="0-9-channel_2105335046" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-channel_2105335046/channel_web/1170x658379547401",&flix HD
+http://starshare.live:8080/live/9826816920/8625825719/98841.m3u8
+
+#EXTINF:-1 tvg-id="0-9-176" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-176/channel_web/1170x658d4d3573a17f24dcdb86c0da75e7208e8",Zee Classic
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-176
+#EXTINF:-1 tvg-id="0-9-209" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-209/channel_web/1170x658withlogo358457080",&xplorHD
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-209
+#EXTINF:-1 tvg-id="0-9-216" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-216/channel_web/1170x658withlogo20909261",Zee Biskope
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-216
+
+#EXTINF:-1 tvg-id="0-9-bigmagic_1786965389" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-bigmagic_1786965389/channel_web/1170x658withlog_2022520414",Big Magic
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-bigmagic_1786965389
+
+#EXTINF:-1 tvg-id="0-9-zeetvhd" group-title="Zee5-SabbirIPTV" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeetvhd/channel_web/1170x658withlog1554775145",Zee TV HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetvhd1/default/zeetvhd1-audio_208482_und=208000-video=2137600-429438249.m3u8
+
+#EXTINF:-1 tvg-id="0-9-tvhd_0" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-tvhd_0/channel_web/1170x658withlogo378606665",&TV HD
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Andtvhd1/default/andtvhd1-audio_208482_und=208000-video=2137600-429438133.m3u8
+
+#EXTINF:-1 tvg-id="0-9-zeecafehd" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeecafehd/channel_web/1170x658withlogo325698699",Zee Caf  HD
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-zeecafehd
+#EXTINF:-1 tvg-id="0-9-bigganga" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-bigganga/channel_web/1170x6581735687172",Zee Ganga
+https://zee5.sabbirhasan.trial.rocks/api?id=0-9-bigganga
+
+#EXTINF:-1 tvg-id="0-9-zeeanmol" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeeanmol/channel_web/1170x658withlog_1844143347",Zee Anmol
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeeanmol1/default/zeeanmol1-audio_208482_und=208000-video=2137600-429438392.m3u8
+
+
+#EXTINF:-1 tvg-id="0-9-zeetv" group-title="Zee5" tvg-logo="https://akamaividz2.zee5.com/image/upload/resources/0-9-zeetv/channel_web/1170x658withlogo_200095097",Zee TV
+https://d1g8wgjurz8via.cloudfront.net/bpk-tv/Zeetv1/default/zeetv1-audio_208482_und=208000-video=2137600-429438249.m3u8
