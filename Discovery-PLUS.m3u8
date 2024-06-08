@@ -2,14 +2,14 @@
 #EXTINF:-1 group-title="Discovery-PLUS" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/discovery.png",Discovery [HINDI]
 https://raw.githubusercontent.com/jack78692/ch/master/discovery.m3u8
 
-#EXTINF:-1 group-title="Discovery-PLUS" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/animalplanet.png",Animal Planet [HINDI]
+#EXTINF:-1 group-title="Infotainment" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/animalplanet.png",Animal Planet [HINDI]
 https://raw.githubusercontent.com/jack78692/ch/master/animalplanet.m3u8
 
-#EXTINF:-1 group-title="Discovery-PLUS" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/discoveryscience.png",Discovery Science [HINDI]
+#EXTINF:-1 group-title="Infotainment" tvg-logo="https://raw.githubusercontent.com/fraudiay79/logos/master/us/discoveryscience.png",Discovery Science [HINDI]
 https://varun-iptv.netlify.app/m3u/Discovery_Science.m3u8
 
-#EXTINF:-1 group-title="Discovery-PLUS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Investigation_Discovery_Logo_2018.svg/1200px-Investigation_Discovery_Logo_2018.svg.png",Discovery Investigation [HINDI]
+#EXTINF:-1 group-title="Entertainment" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Investigation_Discovery_Logo_2018.svg/1200px-Investigation_Discovery_Logo_2018.svg.png",Discovery Investigation [HINDI]
 https://raw.githubusercontent.com/jack78692/ch/master/id.m3u8
 
-#EXTINF:-1 group-title="Discovery-PLUS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png",Discovery Kids [HINDI]
+#EXTINF:-1 group-title="Kids" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/2016_Discovery_Kids_logo.svg/1200px-2016_Discovery_Kids_logo.svg.png",Discovery Kids [HINDI]
 https://raw.githubusercontent.com/jack78692/ch/master/dkids.m3u8
