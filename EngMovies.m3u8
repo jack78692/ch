@@ -1,0 +1,189 @@
+#EXTINF:0 tvg-id="ext" group-title="Movies",AVA Famliy
+https://familyhls.avatv.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA CINEMA
+https://cinehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",4U TV
+https://hls.4utv.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA FAMILY
+https://familyhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA HD
+https://euhls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA TWO
+https://twohls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA ONE
+https://onehls.persiana.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",PERSIANA COMEDY
+https://comedyhls.persiana.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Grand Cinema
+https://gcinemahls.wns.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="FX.tr" group-title="Movies",FX 1
+https://fxtvhls.wns.live/hls/stream.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",247Box tv
+https://hls.247box.live/hls/stream.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Damac TV
+http://51.210.227.138/hls/stream.m3u8
+
+#EXTINF:-1 tvg-id="Ajyal TV" tvg-name="Ajyal TV" tvg-language="Arabic" tvg-logo="https://i.imgur.com/j1Xmygq.jpg" tvg-country="PS" tvg-url="https://raw.githubusercontent.com/MuazT/EPG-Guide/master/ArabicEPG.xml" group-title="Movies",Ajyal TV
+http://htvajyal.mada.ps:8888/ajyal/tracks-v1a1/mono.m3u8
+
+#EXTINF:0 tvg-id="Uae: Dubai One" group-title="Movies",Dubai One
+http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
+
+EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/92.jpg" group-title="Movies",My Cinema Europe HD
+http://210.210.155.35:80/uq2663/h/h208/02.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/87.jpg" group-title="Movies",Cinema World HD
+http://210.210.155.35:80/uq2663/h/h202/02.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/55.jpg" group-title="Movies",Thrill
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://210.210.155.35:80/uq2663/h/h240/02.m3u8
+
+
+ #EXTINF:0 tvg-id="MBC Bollywood HD" group-title="Movies",Hollywood Movies
+https://z88.ubtvfans.com/live/rx1/37/994b3b9fcc2b4f3ee856d7d12b5356ca/index.m3u8
+
+#EXTINF:0 tvg-id="OSN Star Movies HD_en" group-title="Movies",Movies plus Japan
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=cs14
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-5fc705eb052f6f002ef46057" group-title="Movies",IFC FILM PICKS
+https://amc-ifc-films-picks-1-us.tablo.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-5fc705e2a2236e002d69f36d" group-title="Movies",AMC THRILLERS
+https://amc-rushbyamc-1-us.vizio.wurl.tv/playlist.m3u8
+
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/4.jpg" group-title="Movies",TRANS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/3.jpg" group-title="Movies",Trans7
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 7.1.2; AFTMM) AppleWebKit/537.36 (KHTML, like Gecko) Silk/112.5.1 like Chrome/112.0.5615.213 Safari/537.36
+https://video.detik.com/trans7/smil:trans7.smil/chunklist_w1956697368_b744100_sleng.m3u8
+
+#EXTINF:0 tvg-id="MBC Persia" group-title="Movies",MBC Persia
+https://shls-mbcpersia-prod-dub.shahid.net/out/v1/bdc7cd0d990e4c54808632a52c396946/index_1.m3u8
+
+#EXTINF:0 tvg-id="SyriTV.al" group-title="Movies",syri tv
+http://live.syri.tv:6969/live/syriblue/hd/23.ts
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",24/7 Movies
+https://shls-live-ak.akamaized.net/out/v1/90143f040feb40589d18c57863d9e829/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Charge!
+https://dai.google.com/linear/hls/event/e1QjWFRNSR2YFYGsPbkfgg/master.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",ScreamBox TV
+https://bloodydisgusting-ingest-roku-us.cinedigm.com/playlist.m3u8
+
+#EXTINF:0 tvg-id="avi" group-title="Movies",Gem Film 
+http://103.131.214.129:9985/stream/channelid/1834383944?ticket=955CEC0FD920A65DB95AFEF197888E9C01F6D429&profile=pass
+
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",HBO THAI
+https://z88.ubtvfans.com/live/rx1/332/e5efbdc49c26d46e0559df52a8a03d19/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Lotus Macau
+https://cdn1.skygo.mn/live/disk1/Lotus/HLS-FTA/Lotus.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Groovy TV (360p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+http://web.onair-radio.eu:1935/groovytv/groovytv/playlist.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",midnightpulp
+https://amg01201-cinedigmenterta-midnightpulp-cineverse-axym1.amagi.tv/playlist/amg01201-cinedigmenterta-midnightpulp-cineverse/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",ficom channel
+https://v3.siar.us/ficomchannel/live/playlist.m3u8
+
+ #EXTINF:0 tvg-id="ext" group-title="Movies",AMC+
+https://bcovlive-a.akamaihd.net/ba853de442c140b7b3dc020001597c0a/us-east-1/6245817279001/playlist.m3u8
+ 
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",Movie SPhere
+https://moviesphere-roku.amagi.tv/playlist720lp.m3u8
+#EXTINF:0 tvg-id="64a3d96f060e830008af6745" group-title="Movies",MovieSphere by Lionsgate
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/64a3d96f060e830008af6745/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+
+
+#EXTINF:0 tvg-id="645e7828e1979c00087b75b4" group-title="English Movies",MovieSphere by Lionsgate
+http://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/645e7828e1979c00087b75b4/master.m3u8?advertisingId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&appVersion=unknown&deviceDNT=0&deviceId=91a6ae51-6f9d-4fbb-adb0-bdfffa44693e&deviceLat=0&deviceLon=0&deviceMake=samsung&deviceModel=samsung&deviceType=samsung-tvplus&deviceUA=samsung/SM-T720/10&deviceVersion=unknown&embedPartner=samsung-tvplus&profileFloor=&profileLimit=&samsung_app_domain=https://play.google.com/store/apps/details?id=com.samsung.android.tvplus&samsung_app_name=Mobile+TV+Plus&us_privacy=1YNY
+ 
+ 
+ #EXTINF:-1 tvg-id="ext" group-title="Movies",TV5 Live
+https://live-fi.tvkaista.net/tv5/live.m3u8?src=videojs
+
+
+#EXTINF:0 tvg-id="SonyMovies.us" group-title="Movies",Sony Movies Channel
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://cdn.klowdtv.net/803B48A/n1.klowdtv.net/live1/smc_720p/playlist.m3u8
+
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",netmaxtv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 4.2.2; AFTB Build/JDQ39) AppleWebKit/537.22 (KHTML, like Gecko) Chrome/25.0.1364.173 Mobile Safari/537.22 cordova-amazon-fireos/3.4.0 AmazonWebAppPlatform/3.4.0;2.0
+http://live.netmaxtv.com:8080/live/live/HasBahCa.m3u8
+ 
+ #EXTINF:-1 tvg-id="" user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36" group-title="Movies",MOVIES WORLD 1 TH (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.138 Safari/537.36
+https://cdn6.goprimetime.info/feed/eI5rczhSQpWBcgOtqRLNWw/LC1/index.m3u8
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Sci-Fi
+https://sci-fi-redbox.amagi.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="5e20b730f2f8d5003d739db7-60089d8df682a3002c348297" group-title="Movies",Popcornflix Movies
+https://popcornflix-plex.amagi.tv/playlist.m3u8
+
+ 
+ #EXTINF:0 tvg-id="ext"tvg-logo="http://worldlivetv.stream/images/blank_square.png"group-title="Movies",Toonami Aftermath Movies
+http://api.toonamiaftermath.com:3000/movies/playlist.m3u8
+ 
+ 
+ #EXTINF:0 tvg-id="ext" group-title="Movies",FilmRise Horror
+http://tinyurl.com/yt96wptw
+ 
+ 
+ 
+#EXTINF:0 tvg-id="ext" group-title="Movies",bizzarromovies
+https://minerva-bizzarromovies-1-it.samsung.wurl.tv/playlist.m3u8
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",WOWOWOW CINEMA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; vivo I2214 Build/TP1A.220624.014) IPTV Pro/7.0.6
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs07
+
+
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",TVCarib
+https://tvc.mediacaribstream.com:5443/LiveApp/streams/678996728477322762133253.m3u8
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 1
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs08
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 2
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs27
+
+#EXTINF:0 tvg-id="StarMoviesHD.in" group-title="Movies",Star 3
+http://cdns.jp-primehome.com:8000/zhongying/live/playlist.m3u8?cid=bs28
+
+#EXTINF:0 tvg-id="ext" group-title="Movies",Hi Yah
+https://linear-59.frequency.stream/dist/plex/59/hls/master/playlist.m3u8
+ 
