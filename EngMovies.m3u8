@@ -43,6 +43,9 @@ http://htvajyal.mada.ps:8888/ajyal/tracks-v1a1/mono.m3u8
 #EXTINF:0 tvg-id="Uae: Dubai One" group-title="Movies",Dubai One
 http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
 
+#EXTINF:0 tvg-id="Uae: Dubai One" group-title="Movies",Dubai One
+http://dminnvll.cdn.mangomolo.com/dubaione/smil:dubaione.stream.smil/chunklist_b1800000.m3u8
+
 EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/m3ulink/logo/main/92.jpg" group-title="Movies",My Cinema Europe HD
 http://210.210.155.35:80/uq2663/h/h208/02.m3u8
 
