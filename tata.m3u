@@ -29,3 +29,17 @@ https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.m
 #KODIPROP:inputstream.adaptive.license_key={"a407479f074d43d798478c1212d95876":"3afb53a2643939cd7128fa7ceded533a"}
 #EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Movies",HBO SG
 https://bpprod2catchup.akamaized.net/bpk-tv/irdeto_com_Channel_126/output/manifest.mpd?begin=20240630T011700&end=20240708T011700
+
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key={"a407479f074d43d798478c1212d95876":"3afb53a2643939cd7128fa7ceded533a"}
+#EXTINF:-1 tvg-logo="https://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch115_160_115" group-title="Movies",HBO SG
+https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd
+
+
+#EXTINF:-1 group-title="Movies" tvg-id="HBOCINEMAX" tvg-logo="https://i.imgur.com/uB76Ft0.png",Cinemax SG 
+#KODIPROP:inputstream.adaptive.license_type=clearkey 
+#KODIPROP:inputstream.adaptive.license_key={"32bc2ee6869144b88bee3babf202f88e":"50d3b9ec49e1570621d45822923607f7"}
+https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.mpd
+
+
+
