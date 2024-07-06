@@ -1,4 +1,4 @@
-#EXTM3U x-tvg-url="https://raw.githubusercontent.com/mitthu786/tvepg/main/tataplay/epg.xml.gz"
+#EXTM3U url-tvg="http://m3u4u.com/xml/jwmzn1wx72cj6m8dn721"
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"42265af4b0de5201865aa0e25ff80913":"db32eeaee951a4dfa72e0f1816f856ad"}
@@ -82,6 +82,7 @@ https://webudit.hlsjs.ru/lb/premium376/index.m3u8|Origin=https://weblivehdplay.r
 #EXTINF:-1 tvg-id="FX.us" tvg-name="FX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fx-us.png" group-title="Movies" streamId="146" channel-number="146",FX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
-https://webudit.hlsjs.ru/lb/premium317/index.m3u8|Origin=https://weblivehdplay.ru
+https://webhdrunns.mizhls.ru/lb/premium317/index.m3u8|Origin=https://weblivehdplay.ru
+
 
 
