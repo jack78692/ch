@@ -70,7 +70,7 @@ https://webudit.hlsjs.ru/lb/premium301/index.m3u8|Origin=https://weblivehdplay.r
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
 https://webudit.hlsjs.ru/lb/premium376/index.m3u8|Origin=https://weblivehdplay.ru
 
-#EXTINF:-1 tvg-id="FX.us" tvg-name="FX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fx-us.png" group-title="USA (DADDY LIVE)" streamId="146" channel-number="146",FX
+#EXTINF:-1 tvg-id="FX.us" tvg-name="FX" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/fx-us.png" group-title="Movies" streamId="146" channel-number="146",FX
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
 https://webudit.webhd.ru/lb/premium317/index.m3u8|Referer="https://weblivehdplay.ru/"|Origin="https://weblivehdplay.ru"
