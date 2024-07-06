@@ -6,9 +6,11 @@
 https://bpprod7catchup.akamaized.net/bpk-tv/irdeto_com_Channel_257/output/manifest.mpd?begin=20240629T225613&end=20240707T225613
 
 #EXTINF:-1 group-title="MOVIES" tvg-id="" tvg-logo="https://zeelwebsite.s3.amazonaws.com/zeetele/wp-content/uploads/2017/10/Zee-Cafe-HD.png",Zee Cafe
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
 https://madplay.live/hls/jiotv/stream.php?id=1319&e=.m3u8|Referer=https://madplay.live/
 
 #EXTINF:-1 group-title="MOVIES" tvg-id="" tvg-logo="https://tvschedule.today/_next/image?url=https%3A%2F%2Fimagesdishtvd2h.whatsonindia.com%2Fdasimages%2Fchannel%2Flandscape%2F360x270%2FsUM7AT9t.png&w=256&q=75",Zee Anmol Cinema 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
 https://madplay.live/hls/jiotv/stream.php?id=2761&e=.m3u8|Referer=https://madplay.live/
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
