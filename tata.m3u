@@ -74,10 +74,10 @@ https://webudit.hlsjs.ru/lb/premium338/index.m3u8|Origin=https://weblivehdplay.r
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
 https://webudit.hlsjs.ru/lb/premium298/index.m3u8|Origin=https://weblivehdplay.ru
 
-#EXTINF:-1 group-title=" MOVIES" tvg-id="freeform.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/800px-FXX_Logo.svg.png",Freeform
+#EXTINF:-1 tvg-id="Freeform.us" tvg-name="Freeform" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-states/freeform-us.png" group-title="Movies" streamId="148" channel-number="148",Freeform
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
-https://webudit.hlsjs.ru/lb/premium301/index.m3u8|Origin=https://weblivehdplay.ru
+https://webhdrunns.mizhls.ru/lb/premium301/index.m3u8|Origin=https://weblivehdplay.ru
 
 #EXTINF:-1 tvg-id="WWENetwork(English).ca" tvg-name="WWE Network" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/635e715cb2f2c6d28e9691861d3d331dd040285b/countries/united-states/wwe-us.png" group-title="SPORTS)" streamId="307" channel-number="307",WWE Network
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
@@ -89,5 +89,10 @@ https://webudit.hlsjs.ru/lb/premium376/index.m3u8|Origin=https://weblivehdplay.r
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
 https://webhdrunns.mizhls.ru/lb/premium317/index.m3u8|Origin=https://weblivehdplay.ru
 
+
+#EXTINF:-1 tvg-id="ITV2.uk" tvg-name="ITV 2" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/united-kingdom/itv-2-uk.png" group-title="Movies" streamId="321" channel-number="321",ITV 2
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
+https://webhdrunns.mizhls.ru/lb/premium351/index.m3u8|Origin=https://weblivehdplay.ru
 
 
