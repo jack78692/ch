@@ -43,4 +43,23 @@ https://tglmp04.akamaized.net/out/v1/0f439c1d8a1a47fca9ae1fa92144306e/manifest.m
 #EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
 https://webudit.hlsjs.ru/lb/premium381/index.m3u8|Origin=https://weblivehdplay.ru
 
+#EXTINF:-1 tvg-id="" tvg-name="USA - Tbs" tvg-logo="https://i.postimg.cc/VLcY4FMQ/20230701-234052.png" group-title="MOVIES",TBS
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
+https://webudit.hlsjs.ru/lb/premium336/index.m3u8|Origin=https://weblivehdplay.ru
+
+#EXTINF:-1 tvg-id="" tvg-name="USA - Syfy" tvg-logo="https://1000logos.net/wp-content/uploads/2021/05/Syfy-logo.png" group-title="MOVIES",SYFY
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
+https://webudit.hlsjs.ru/lb/premium373/index.m3u8|Origin=https://weblivehdplay.ru
+
+#EXTINF:-1 group-title=" MOVIES" tvg-id="tnt.us" tvg-logo="https://i.imgur.com/NqS48Rn.png",TNT US
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
+https://webudit.hlsjs.ru/lb/premium338/index.m3u8|Origin=https://weblivehdplay.ru
+
+#EXTINF:-1 group-title=" MOVIES" tvg-id="fxx.us" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/FXX_Logo.svg/800px-FXX_Logo.svg.png",FXX USA
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36 Edg/111.0.1661.43
+#EXTVLCOPT:http-referrer=https://weblivehdplay.ru/premiumtv/daddylivehd.php
+https://webudit.hlsjs.ru/lb/premium301/index.m3u8|Origin=https://weblivehdplay.ru
 
