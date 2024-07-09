@@ -36,7 +36,8 @@ https://tglmp04.akamaized.net/out/v1/421a3cd3bdcd492f8f4b5efb2363ed2c/manifest.m
 #KODIPROP:inputstream.adaptive.license_key={"473fabdc05ac4d9b94fd34f33f73394f":"1072b1e61206c3859607984f872e549c"}
 #EXTINF:-1 tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_170_122" group-title="Movies",HBO Hits
 https://tglmp02.akamaized.net/out/v1/0fdcb3b643af40ceb3a5b7efa39f7b72/manifest.mpd
-
+#EXTINF:-1 tvg-logo="http://images.now-tv.com/shares/channelPreview/img/en_hk/color/ch111_170_122" group-title="Movies",HBO family
+https://linearjitp02-playback.astro.com.my/dash-wv/linear/5053/default.mpd?|drmScheme=clearkey&drmLicense=2b9ff7cc1a3dc9fef47cc5773472d510:7e37588e893ab9252e505bd6dda35beb
 
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key={"2bc2ee6869144b88bee3babf202f88e":"50d3b9ec49e1570621d45822923607f7"}
