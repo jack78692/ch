@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wasi TV</title>
+    <!-- External stylesheets -->
+    <link href="https://niazitv.com/jtv/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link rel="stylesheet" href="https://vjs.zencdn.net/7.16.0/video-js.css">
+    <style>
+        /* Custom CSS styles */
+        :root {
+            --primaryColor: red;
+            --secondaryColor: black;
+            --secondaryOpposite: white;
+        }
+
+        body {
+            background-color: var(--secondaryColor);
+            overflow: auto;
+            margin: 0;
+            padding: 0;
+        }
+
+        .scrollmenu {
+            background-color: var(--secondaryColor);
+            overflow: auto;
+            white-space: nowrap;
+            position: relative;
+            overflow-y: hidden;
+            padding-bottom: 20px;
+            display: flex; /* Display channels in a row */
+            flex-wrap: wrap; /* Allow items to wrap to new lines */
+            gap: 20px; /* Gap between items */
+            justify-content: flex-start; /* Align items to start of the row */
+        }
+
+        .scrollmenu a {
+            display: inline-block;
+            color: var(--secondaryOpposite);
+            text-align: center;
+            padding: 4px;
+            text-decoration: none;
+            position: relative;
+            width: 200px; /* Set a fixed width for each item */
+            flex: 1 0 200px; /* Flexible width for responsiveness */
+            margin-bottom: 20px; /* Vertical margin between items */
+        }
+
+        .scrollmenu a .print {
+            height: 80px; /* Larger logo height for better visibility */
+            width: 80px; /* Larger logo width for better visibility */
+            border-radius: 50%; /* Make the logo circular */
+            border: 2px solid #f5f5f5;
+            padding: 2px;
+            margin: 3px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            display: block; /* Ensures the image is displayed properly */
+            margin: auto; /* Centers the image */
+        }
+
+        .scrollmenu a:hover .print {
+            transform: scale(1.1);
+            border: 2px solid var(--primaryColor);
+        }
+
+        .scrollmenu a .print img {
+            height: 100%;
+            width: auto;
+            display: block;
+        }
+
+        .scrollmenu a .popuptext {
+            display: none;
+            position: absolute;
+            visibility: hidden;
+            width: 160px;
+            background-color: #555;
+            color: #fff;
+            text-align: center;
+            border-radius: 6px;
+            padding: 8px 0;
+            z-index: 1;
+            bottom: 125%;
+            left: 50%;
+            margin-left: -80px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .scrollmenu a:hover .popuptext {
+            display: block;
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .popuptext {
+            max-width: 100%;
+            white-space: normal;
+            bottom: calc(100% + 10px);
+        }
+
+        footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+
+        .news-bar {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        .news-bar marquee {
+            font-size: 16px;
+            white-space: nowrap;
+        }
+
+        .scrollmenu a .channel-name {
+            color: white;
+            text-align: center;
+            margin-top: 5px;
+            font-size: 16px; /* Larger font size for better visibility */
+        }
+
+        #player-wrapper {
+            max-width: 100%;
+            margin: auto;
+        }
+
+        #player {
+            width: 100% !important;
+            height: auto !important;
+        }
+
+        /* Disable text selection */
+        body {
+            user-select: none;
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .scrollmenu a {
+                width: calc(50% - 20px); /* Adjust width for two items per row */
+            }
+            .scrollmenu a .print {
+                height: 60px; /* Adjust logo size for mobile */
+                width: 60px; /* Adjust logo size for mobile */
+            }
+            .scrollmenu a .channel-name {
+                font-size: 14px; /* Adjust font size for mobile */
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .scrollmenu a {
+                width: calc(20% - 20px); /* Adjust width for five items per row on large screens */
+            }
+            .scrollmenu a .print {
+                height: 100px; /* Adjust logo size for large screens */
+                width: 100px; /* Adjust logo size for large screens */
+            }
+            .scrollmenu a .channel-name {
+                font-size: 18px; /* Adjust font size for large screens */
+            }
+        }
+    </style>
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <!-- JW Player section -->
+    <div id="player-wrapper">
+        <div id="player"></div>
+    </div>
+
+    <!-- News ticker -->
+    <div class="news-bar">
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            Breaking news! Your headline here. Breaking news! Your headline here. Breaking news! Your headline here.
+        </marquee>
+    </div>
+
+    <!-- Channel list -->
+    <div class="scrollmenu">
+        <!-- Channel links -->
+        <a href="#" onclick="loadChannel('https://avaserieshls.wns.live/hls/stream.m3u8', 'AVA SERIES')" role="button">
+            <div class="print">
+                <img src="https://github.com/jack78692/ch/blob/master/download.jpg?raw=true" alt="AVA SERIES">
+                <span class="popuptext">AVA SERIES</span>
+            </div>
+            <div class="channel-name">AVA SERIES</div>
+        </a>
+
+        <a href="#" onclick="loadChannel('https://familyhls.avatv.live/hls/stream.m3u8', 'AVA FAMILY')" role="button">
+            <div class="print">
+                <img src="https://www.lyngsat.com/logo/tv/aa/ava-family-iq.png" alt="AVA FAMILY">
+                <span class="popuptext">AVA FAMILY</span>
+            </div>
+            <div class="channel-name">AVA FAMILY</div>
+        </a>
+
+        <a href="#" onclick="loadChannel('https://toonixhls.wns.live/hls/stream.m3u8', 'FX2')" role="button">
+            <div class="print">
+                <img src="https://raw.githubusercontent.com/jack78692/ch/master/download%20(5).jpg" alt="FX 2">
+                <span class="popuptext">FX 2</span>
+            </div>
+            <div class="channel-name">FX 2</div>
+        </a>
+
+        <a href="#" onclick="loadChannel('https://live.hastitv.com/hls/livetv.m3u8', 'Hasti TV')" role="button">
+            <div class="print">
+                <img src="https://github.com/jack78692/ch/blob/master/download.png?raw=true" alt="Hasti TV">
+                <span class="popuptext">Hasti TV</span>
+            </div>
+            <div class="channel-name">Hasti TV</div>
+        </a>
+
+        <a href="#" onclick="loadChannel('https://damac-tv.icdndhcp.com/hls/stream.m3u8', 'DXB One')" role="button">
+            <div class="print">
+                <img src="https://github.com/jack78692/ch/blob/master/%5Bimage%5D%20-%209647467.jpg?raw=true" alt="DXB One">
+                <span class="popuptext">DXB One</span>
+            </div>
+            <div class="channel-name">DXB One</div>
+        </a>
+
+        <a href="#" onclick="loadChannel('https://d2i4me5ac6ausm.cloudfront.net/index_5.m3u8', 'ZEE24KALAK')" role="button">
+            <div class="print">
+                <span class="popuptext">Zee 24 Kalak</span>
+            </div>
+            <div class="channel-name">Zee 24 Kalak</div>
+        </a>
+        
+        <!-- New channels provided -->
+        <a href="#" onclick="loadChannel('https://webott.viatv.com.np/v0t1/StarPlusHD.stream/playlist.m3u8', 'StarPlusHD')" role="button">
+            <div class="print">
+                <span class="popuptext">Star Plus HD</span>
+            </div>
+            <div class="channel-name">Star Plus HD</div>
+        </a>
+
+    </div>
+
+    <!-- EPG display container -->
+    <div id="epg-container" style="color: white;"></div>
+
+    <!-- JW Player script -->
+    <script src="https://content.jwplatform.com/libraries/KB5zFt7A.js"></script>
+    <script>
+        var playerInstance = jwplayer("player");
+
+        function loadChannel(url, channelName) {
+            playerInstance.setup({
+                file: url,
+                type: "hls", // Specify the type of video stream
+                width: "100%",
+                aspectratio: "16:9",
+                autostart: true,
+                controls: true
+            });
+            $('#epg-container').html('<h3 style="text-align:center;">Loading EPG for ' + channelName + '...</h3>');
+        }
+
+        // Handling Fire TV remote keys
+        document.addEventListener('keydown', function(event) {
+            switch(event.key) {
+                case 'Play':
+                    playerInstance.play();
+                    break;
+                case 'Pause':
+                    playerInstance.pause();
+                    break;
+                case 'Stop':
+                    playerInstance.stop();
+                    break;
+                case 'ArrowUp':
+                    playerInstance.setVolume(playerInstance.getVolume() + 0.1); // Increase volume by 10%
+                    break;
+                case 'ArrowDown':
+                    playerInstance.setVolume(playerInstance.getVolume() - 0.1); // Decrease volume by 10%
+                    break;
+                case 'ArrowLeft':
+                    playerInstance.seek(playerInstance.getPosition() - 10); // Seek backward by 10 seconds
+                    break;
+                case 'ArrowRight':
+                    playerInstance.seek(playerInstance.getPosition() + 10); // Seek forward by 10 seconds
+                    break;
+                case 'Enter':
+                    var isFullscreen = playerInstance.getFullscreen();
+                    playerInstance.setFullscreen(!isFullscreen); // Toggle fullscreen
+                    break;
+            }
+        });
+    </script>
+</body>
+</html>
