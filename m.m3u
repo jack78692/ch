@@ -1,9 +1,9 @@
 #EXTM3U x-tvg-url="https://avkb.short.gy/tsepg.xml.gz"
 
 
-
-#EXTINF:-1 tvg-id="" tvg-logo="https://fmmedia.b-cdn.net/images/movie-posters/Money%20Heist%20Season%204.webp" group-title="Money Heist(Season 4)",Money Heist(Season 4)
-https://pixeldra.in/api/file/peQSZEAf?download
+#EXTINF:-1 tvg-id="" tvg-logo="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fnbjcRDYn6YviCcePDnGdyAkYsB.jpg" group-title="Movies", Logan (2017)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36
+https://pub-ed77b8692d9143afa6fb104037f2d19e.r2.dev/Logan.2017.4K-2160p.SDR.10Bit.BluRay.Hindi.DD5.1-English.5.1.HEVC.x265-HDHub4u.Tv.mkv
 
 #EXTINF:-1 tvg-id="" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYV9ICSfxjx5ldmJzQMri5ToYjTgQVSEndWE0a_QDw8sgr4Pivv7bE_VQ&s=10" group-title="Demon Slayer Hashira Training Arc (Season 4)",Ep1
 https://pixeldra.in/api/file/HoQ47RAR?download
